@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react';
 import axios from 'axios';
@@ -26,4 +25,5 @@ const useGif = (tag) => {
     return{gif,loading,fetchData};
 }
 
-export default useGif;
+export default useGif
+
